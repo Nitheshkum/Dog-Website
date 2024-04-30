@@ -1,0 +1,62 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#testimonial {
+  text-align: center;
+}
+
+.container {
+  display: inline-block; /* This ensures the container only takes the width of its content */
+}
+
+.profile-img {
+  display: block; /* Ensures the image is centered properly */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.btn {
+  display: inline-block; /* Ensure the button takes only the necessary width */
+  margin: 20px auto; /* Adjust the margin to center the button horizontally */
+  padding: 8px 16px; /* Add padding to the button */
+  font-size: 14px; /* Decrease the font size */
+  border-radius: 20px; /* Add border radius for a cute appearance */
+  background-color: pink; /* Change the background color to something cute */
+  color: white; /* Change the text color */
+  text-decoration: none; /* Remove default link underline */
+}
+
+.btn:hover {
+  background-color: lightpink; /* Change the background color on hover */
+}
+#testimonial {
+  margin-bottom: 50px; /* Add margin at the bottom of the testimonial section */
+}
+
+#pricing {
+  margin-top: 50px; /* Add margin at the top of the pricing section */
+}
